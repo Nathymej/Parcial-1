@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     float A=0,B=0,C=0;
     cout << "Ingrese el voltage (A): ";
-    cin >> A;
+    cin >> A;w
    
     cout << "Ingrese la resistencia (B): ";
     cin >> B;

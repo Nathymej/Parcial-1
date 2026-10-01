@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main() { 
+     int numeroSolicitado=0;
+     cout << "Ingrese un numero: ";
+     cin >> numeroSolicitado;
+     for (int i=numeroSolicitado; i>=1; i--){
+        cout << "impresion de los numeros: " << i << std::endl;
+     }
+    // se ejecuta 5 veces, entrezando una carta de iteracion
+    for (int i = 0; i < 5; i++)
+     {
+        cout << "Entrega de carta uno " << i + 1 << std::endl;
+    }
+    return 0;
+
+}
